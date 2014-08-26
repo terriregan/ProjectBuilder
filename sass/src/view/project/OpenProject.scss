@@ -1,0 +1,5 @@
+.gridTopToolbar .x-btn-default-toolbar-small {
+  @include background-image(linear-gradient(top, lighten($base-button-color, 5), darken($base-button-color, 5)));
+  padding: 5px 10px 5px 10px;
+  border-color: rgba(95, 85, 13, 0.60);
+}
